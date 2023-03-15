@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0PX;
+}
+
+body {
+    background-color: hsl(185, 75%, 39%) !important;
+    background: url(imagens/bg-pattern-top.svg) no-repeat top -30rem left -15rem, url(imagens/bg-pattern-bottom.svg) no-repeat top 30rem right -5rem;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+
+}
+
+.card {
+    border-radius: 20px;
+    background-color: white;
+    overflow: hidden;
+    text-align: center;
+}
+
+.background-card>img {
+    width: 100%;
+}
+
+.userAge {
+    color: rgba(128, 128, 128, 0.596);
+    font-weight: lighter;
+    font-size: 0.9em;
+}
+
+.userCity {
+    color: rgba(128, 128, 128, 0.596);
+}
+
+.avatar {
+    border-radius: 50%;
+    margin: -3em 0 1em;
+    border: solid 7px white;
+
+}
+
+.avatarphoto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.status {
+    display: flex;
+    justify-content: space-around;
+    margin: 25px;
+}
+
+.statusFollow {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.6em;
+}
+
+.status p{
+    letter-spacing: 3px;
+    color: rgba(128, 128, 128, 0.596);
+   
+}
